@@ -1,4 +1,138 @@
-h1{
-	font-size: 30px;
-	color: blue;
+*{
+	box-sizing: border-box;
 }
+
+html{
+	overflow-x: hidden;
+}
+
+body {
+	font-size: 16px;
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	overflow-x: hidden;
+}
+
+#header-nav{
+	background-color: black; /*#1E1E1E;*/
+	border-radius: 0;
+	border: 0;
+}
+
+.divAdj{
+	padding-left: 0;
+	margin-left: 0;
+	border-left: 0;
+	height: 30px;
+}
+
+#mainTitle{
+	font-size: 20px;
+	font-family: American Typewriter, serif;
+	color: white;
+	float: left;
+	margin-right: 10px;
+}
+
+#searchBar input{
+	height: 30px;
+	width: 200px;
+	font-size: 17px;
+	padding: 10px;
+}
+
+#searchBar button{
+	background: white;
+	font-size: 17px;
+}
+
+#searchBar button:hover{
+	background: grey;
+}
+
+#searchBarSmall{
+	position: relative;
+	left: 27.5%;
+	height: 100px;
+	top: 25px;
+}
+
+#searchBarSmall input{
+	height: 30px;
+	width: 40%;
+}
+
+#searchBarSmall button:hover{
+	background: grey;
+}
+
+
+#menuButtons{
+	position: relative;
+	font-family: American Typewriter, serif;
+	visibility: show;
+	color: white;
+	background-color: #1E1E1E;
+	float: left;
+	left: 20px;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	bottom: 5px;
+	margin-right: 2px;
+}
+
+@media (min-width: 900px){
+	#menuButtons{
+		width: 125px;
+		height: 40px;
+	}
+	#searchBar{
+		position: absolute;
+		right: 0; 
+		margin-right: 10px;
+	}
+	#searchBarSmall{
+		visibility: hidden;
+	}
+}
+
+@media (min-width: 767px) and (max-width: 900px){
+	#menuButtons{
+		width: 90px;
+		height: 40px;
+	}
+	#searchBar{
+		position: absolute;
+		right: 0; 
+		margin-right: 10px;
+	}
+	#searchBarSmall{
+		visibility: hidden;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 767px){
+	#searchBar{
+		visibility: hidden;
+	}
+	#menuButtons{
+		width: 80px;
+		height: 40px;
+	}
+}
+
+@media (max-width: 500px){
+	#searchBar{
+		visibility: hidden;
+	}
+	#menuButtons{
+		width: 58px;
+		height: 40px;
+	}
+
+	#menuButtons{
+		font-size: 15px;
+	}
+}
+
