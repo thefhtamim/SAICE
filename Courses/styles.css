@@ -7,7 +7,7 @@ html{
 }
 
 body {
-	font-size: 16px;
+	font-size: 17px;
 	background-color: white;
 	font-family: Arial, Helvetica, sans-serif;
 	overflow-x: hidden;
@@ -27,9 +27,11 @@ body {
 }
 
 #mainTitle{
-	font-family: Helvetica, serif;
-	color: white;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #6b7078;
 	float: left;
+	margin-left: 50px;
 }
 
 /*#searchBar input{
@@ -41,7 +43,7 @@ body {
 
 #searchBar button{
 	background: white;
-	font-size: 17px;
+	font-size: 20px;
 }
 
 #searchBar button:hover{
@@ -70,10 +72,10 @@ body {
 	font-family: Helvetica;
 	visibility: show;
 	color: white;
-	background-color: #1E1E1E;
+	background-color: black;
 	float: left;
 	height: 54px;
-	left: 20px;
+	left: 30px;
 	bottom: 7px;
 	padding: 0;
 	border: 0;
