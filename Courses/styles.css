@@ -82,7 +82,7 @@ body {
 }
 
 #menuButtons:hover {
-	background-color: grey;
+	color: #6b7078;
 }
 
 input[type = text] {
