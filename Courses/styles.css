@@ -46,18 +46,18 @@ body {
 	font-size: 20px;
 }
 
-#searchBar button:hover{
+#searchBar button:hover {
 	background: grey;
 }
 
-#searchBarSmall{
+#searchBarSmall {
 	position: relative;
 	left: 27.5%;
 	height: 100px;
 	top: 25px;
 }
 
-#searchBarSmall input{
+#searchBarSmall input {
 	height: 30px;
 	width: 40%;
 }
@@ -72,21 +72,22 @@ body {
 	font-family: Helvetica;
 	visibility: show;
 	color: white;
-	background-color: black;
-	float: left;
-	height: 54px;
-	left: 30px;
-	bottom: 7px;
+	left: 20px;
+	margin-left: 80px;
 	padding: 0;
 	border: 0;
+	top: 8px;
 }
 
 #menuButtons:hover {
 	color: #6b7078;
+	text-decoration: none;
 }
 
 input[type = text] {
 	height: 40px;
+	position: relative;
+	bottom: 25px;
 	width: 0px;
 	font-size: 17px;
 	color: white;
