@@ -58,6 +58,32 @@ body {
 	text-decoration: none;
 }
 
+#ssMessage {
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 20%;
+	font-size: 25px;
+	font-family: Verdana;
+}
+
+#ssButton {
+	
+	margin: auto;
+	display: block;
+	position: relative;
+	top: 35%;
+	border: 0;
+	background-color: black;
+	color: white;
+	padding: 15px;
+	border-radius: 4px;
+}
+
+#ssButton:hover {
+	color: #6b7078;
+}
+
 input[type = text] {
 	height: 40px;
 	position: relative;
@@ -75,11 +101,58 @@ input[type = text] {
 	-webkit-transition: width 0.4s ease-in-out;	
 }
 
+#slideshowContainer {
+	background-color: #3b3b3b;
+	position: relative;
+	height: 40vh;
+	width: 100%;
+}
+
 input[type = text]:focus {
 	width: 100%;
 	border: 2px white;
     border-radius: 4px;
 }
+
+
+.yogi {
+	
+	position: relative;
+	margin-top: 100px;
+	margin-left: 10%;
+	height: 35vh;
+	width: 230px;
+	text-align: center;
+
+}
+
+
+#yogiWallpaper {
+	max-width: 90%;
+	height: 70%;
+
+}
+
+#yogiWallpaper:hover {
+	opacity: 80%;
+}
+#yogiTitle {
+	
+	font-family: Helvetica;
+	font-weight: bold;
+	position: relative;
+	top: 20px;
+	font-size: 20px;
+}
+
+#yogiName {
+	font-family: Helvetica;
+	position: relative;
+	top: 5px;
+}
+
+
+
 
 @media (min-width: 900px){
 	#mainTitle{
