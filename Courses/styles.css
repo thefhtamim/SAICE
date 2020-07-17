@@ -158,6 +158,14 @@ input[type = text]:focus {
 	font-weight: bold;
 }
 
+#wip {
+	display: block;
+	margin: auto;
+	max-width: 30%;
+	position: relative;
+	margin-top: 100px;
+}
+
 
 
 
