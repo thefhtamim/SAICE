@@ -1,2 +1,2 @@
-# SAICE
-A website to manage class materials. 
+# Coursaice
+Coursaice offers online courses from your teachers.
