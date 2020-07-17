@@ -23,8 +23,7 @@ body {
 	padding-left: 0;
 	margin-left: 0;
 	border-left: 0;
-	height: 40px;
-	position: relative;
+	height: 42px;
 }
 
 #mainTitle{
@@ -36,18 +35,13 @@ body {
 	position: relative;
 }
 
-#searchBar{
-	position: absolute;
-	right: 0; 
-	margin-right: 10px;
-}
-
 #menuButtons{
 	position: relative;
 	font-family: Helvetica;
 	visibility: show;
 	color: white;
-	left: 20px;
+	left: 7px;
+	right: 13px;
 	padding: 0;
 	border: 0;
 	top: 8px;
@@ -109,9 +103,14 @@ input[type = text] {
 }
 
 input[type = text]:focus {
-	width: 100%;
+	width: 95%;
 	border: 2px white;
     border-radius: 4px;
+}
+
+.divCon{
+	position: absolute;
+	right: 0;
 }
 
 
@@ -182,6 +181,19 @@ input[type = text]:focus {
 		top: 4px;
 	}
 
+	input[type ="text"]{
+		float: right;
+	}
+
+	input[type =text]:focus{
+		width: 90%;
+	} 
+
+	.divCon{
+		width: 108%;
+		right: 5px;
+	}
+
 	#menuButtons{
 		margin-left: 30px;
 	}
@@ -189,13 +201,26 @@ input[type = text]:focus {
 
 @media (max-width: 500px){
 	#mainTitle{
-		font-size: 20px;
-		margin-left: 4px;
-		top: 6px;
+		font-size: 19px;
+		margin-left: 0px;
+		top: 9px;
+	}
+
+	input[type ="text"]{
+		float: right;
+	}
+
+	input[type =text]:focus{
+		width: 90%;
+	} 
+
+	.divCon{
+		width: 108%;
+		right: 5px;
 	}
 
 	#menuButtons{
-		margin-left: 20px;
+		margin-left: 8px;
 		font-size: 15px;
 	}
 }
