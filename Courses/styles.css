@@ -150,6 +150,14 @@ input[type = text]:focus {
 	top: 5px;
 }
 
+#courses {
+	text-align: center;
+	position: relative;
+	top: 40px;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+
 
 
 
@@ -229,10 +237,22 @@ input[type = text]:focus {
 		right: 5px;
 	}
 
+	.yogi {
+		width:180px;
+	}
+
+	#yogiTitle {
+		font-size:15px;
+	}
+
+	#yogiName {
+		font-size: 12px;
+	}
+
 	#menuButtons{
 		margin-left: 16px;
 		font-size: 14px;
-		left: 5px;
+		left: 2px;
 		top: 9px;
 	}
 }
