@@ -213,7 +213,7 @@ input[type = text]:focus {
 	#mainTitle{
 		font-size: 20px;
 		margin-left: 0px;
-		top: 8px;
+		top: 9px;
 	}
 
 	input[type ="text"]{
@@ -232,7 +232,7 @@ input[type = text]:focus {
 	#menuButtons{
 		margin-left: 16px;
 		font-size: 14px;
-		left: 20px;
+		left: 10px;
 		top: 9px;
 	}
 }
