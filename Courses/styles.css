@@ -232,7 +232,7 @@ input[type = text]:focus {
 	#menuButtons{
 		margin-left: 16px;
 		font-size: 14px;
-		left: 10px;
+		left: 5px;
 		top: 9px;
 	}
 }
