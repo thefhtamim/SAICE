@@ -162,8 +162,34 @@ input[type = text]:focus {
 	display: block;
 	margin: auto;
 	max-width: 30%;
-	position: relative;
 	margin-top: 100px;
+}
+
+#impcon {
+	text-align: center;
+	margin-top: 60px;
+	font-family: Helvetica;
+	font-weight: bold;
+
+}
+
+#concepts {
+	text-decoration: none;
+	display: block;
+	color: black;
+	text-align: center;
+	position: relative;
+	top: 20px;
+	margin-top: 15px;
+}
+
+#concepts:hover {
+	color: #6b7078;
+
+}
+
+#conceptsCon {
+	height: 250px;
 }
 
 
