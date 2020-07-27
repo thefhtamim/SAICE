@@ -8,7 +8,7 @@ html{
 
 body {
 	font-size: 17px;
-	background-color: white;
+	background-color: #f4f4f4;
 	font-family: Arial, Helvetica, sans-serif;
 	overflow-x: hidden;
 }
@@ -46,6 +46,7 @@ body {
 	background-color: black; /*#1E1E1E;*/
 	border-radius: 0;
 	border: 0;
+
 }
 
 .divAdj{
@@ -253,18 +254,20 @@ input[type = text]:focus {
 	text-align: center;
 	font-family: Lato-Bold;
 	font-size: 30px;
-	margin-top: 80px;
+	margin-top: 100px;
 }
 
 #FirstPassage {
-	margin-top: 50px;
-	padding-left: 50px;
-	padding-right: 50px;
+	margin-top: 60px;
+	/*padding-left: 60px;
+	padding-right: 60px;*/
 	font-family: Lato;
+	text-align: justify;
+	line-height: 1.6;
 }
 
 #footer {
-	height: 50px;
+	height: 80px;
 	width: 100%;
 	background-color: #3b3b3b;
 	margin-top: 200px;
@@ -424,6 +427,7 @@ input[type = text]:focus {
 
 	input[type ="text"]{
 		float: right;
+		background-size: 20px;
 	}
 
 	input[type =text]:focus{
@@ -463,10 +467,12 @@ input[type = text]:focus {
 		font-size: 24px;
 		padding-right: 50px;
 		padding-left: 50px;
+		line-height: 1.5;
 	}
 	#FirstPassage {
-		padding-left: 60px;
-		padding-right: 60px;
+		padding-left: 55px;
+		padding-right: 55px;
+		line-height: 1.5;
 	}
 	#ssMessage {
 		padding-right: 20px;
