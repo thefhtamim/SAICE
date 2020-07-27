@@ -13,6 +13,35 @@ body {
 	overflow-x: hidden;
 }
 
+@font-face {
+	font-family: Aileron;
+	src: url(Fonts/Aileron/Aileron-Regular.otf);
+}
+
+@font-face {
+	font-family: Berlin;
+	src: url(Fonts/Berlin/Berlin.ttf);
+}
+@font-face {
+	font-family: Lato;
+	src: url(Fonts/Lato/Lato-Light.ttf);
+}
+
+@font-face {
+	font-family: Lato-Bold;
+	src: url(Fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+	font-family: Open-Sans;
+	src: url(Fonts/Open-Sans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+	font-family: Open-Sans-Light;
+	src: url(Fonts/Open-Sans/OpenSans-Light.ttf);
+}
+
 #header-nav{
 	background-color: black; /*#1E1E1E;*/
 	border-radius: 0;
@@ -27,7 +56,7 @@ body {
 }
 
 #mainTitle{
-	font-family: Verdana;
+	font-family: Open-Sans;
 	font-weight: bold;
 	color: #6b7078;
 	float: left;
@@ -37,7 +66,7 @@ body {
 
 #menuButtons{
 	position: relative;
-	font-family: Helvetica;
+	font-family: Open-Sans-Light;
 	visibility: show;
 	color: white;
 	left: 7px;
@@ -58,7 +87,7 @@ body {
 	position: relative;
 	top: 80px;
 	font-size: 25px;
-	font-family: Verdana;
+	font-family: Lato;
 }
 
 #ssButton {
@@ -69,6 +98,7 @@ body {
 	top: 120px;
 	border: 0;
 	background-color: black;
+	font-family: Open-Sans-Light;
 	color: white;
 	padding: 15px;
 	border-radius: 4px;
@@ -81,6 +111,7 @@ body {
 input[type = text] {
 	height: 40px;
 	position: relative;
+	font-family: Lato;
 	bottom: 25px;
 	width: 0px;
 	font-size: 17px;
@@ -139,7 +170,7 @@ input[type = text]:focus {
 }
 #yogiTitle {
 	
-	font-family: Helvetica;
+	font-family: Lato-Bold;
 	font-weight: bold;
 	position: relative;
 	top: 20px;
@@ -147,7 +178,7 @@ input[type = text]:focus {
 }
 
 #yogiName {
-	font-family: Helvetica;
+	font-family: Lato;
 	position: relative;
 	top: 5px;
 }
@@ -156,7 +187,7 @@ input[type = text]:focus {
 	text-align: center;
 	position: relative;
 	top: 40px;
-	font-family: Helvetica;
+	font-family: Lato-Bold;
 	font-weight: bold;
 }
 
@@ -170,13 +201,14 @@ input[type = text]:focus {
 #impcon {
 	text-align: center;
 	margin-top: 60px;
-	font-family: Helvetica;
+	font-family: Lato-Bold;
 	font-weight: bold;
 
 }
 
 #concepts {
 	text-decoration: none;
+	font-family: Lato;
 	display: block;
 	color: black;
 	text-align: center;
@@ -206,14 +238,36 @@ input[type = text]:focus {
 
 /* Hide the images by default */
 .mySlides {
-	height: 400px;
+	height: 1000px;
 	width: 100%;
   	display: none;
 }
 
 .slidesImage{
-	height: 400px;
+	height: 600px;
 	width: 100%;
+}
+
+
+#FirstTitle {
+	text-align: center;
+	font-family: Lato-Bold;
+	font-size: 30px;
+	margin-top: 80px;
+}
+
+#FirstPassage {
+	margin-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-family: Lato;
+}
+
+#footer {
+	height: 50px;
+	width: 100%;
+	background-color: #3b3b3b;
+	margin-top: 200px;
 }
 
 /* Next & previous buttons */
@@ -311,6 +365,13 @@ input[type = text]:focus {
 	#menuButtons{
 		margin-left: 75px;
 	}
+
+	#FirstPassage {
+		
+		padding-left: 300px;
+		padding-right: 300px;
+		
+}
 }
 
 @media (min-width: 767px) and (max-width: 900px){
@@ -397,5 +458,23 @@ input[type = text]:focus {
 		font-size: 14px;
 		left: 2px;
 		top: 9px;
+	}
+	#FirstTitle {
+		font-size: 24px;
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+	#FirstPassage {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	#ssMessage {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	#ssButton {
+		font-size: 15px;
+		top: 110px;
 	}
 }
