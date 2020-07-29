@@ -199,12 +199,24 @@ input[type = text]:focus {
 	margin-top: 100px;
 }
 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column {
+    float: left;
+    width: 16.6%;
+	padding-left: 60px;
+	padding-top: 20px;
+}
+
 #impcon {
-	text-align: center;
-	margin-top: 60px;
+	margin-top: 30px;
 	font-family: Lato-Bold;
 	font-weight: bold;
-
+	font-size: 27px;
 }
 
 #concepts {
@@ -212,10 +224,10 @@ input[type = text]:focus {
 	font-family: Lato;
 	display: block;
 	color: black;
-	text-align: center;
 	position: relative;
 	top: 20px;
 	margin-top: 15px;
+	font-size: 17px;
 }
 
 #concepts:hover {
@@ -225,6 +237,10 @@ input[type = text]:focus {
 
 #conceptsCon {
 	height: 250px;
+}
+
+.chapterNames{
+	height: 500px;
 }
 
 * {box-sizing:border-box}
@@ -269,7 +285,7 @@ input[type = text]:focus {
 	height: 80px;
 	width: 100%;
 	background-color: #3b3b3b;
-	margin-top: 200px;
+	margin-top: 100px;
 }
 
 /* Next & previous buttons */
@@ -372,8 +388,11 @@ input[type = text]:focus {
 		
 		padding-left: 300px;
 		padding-right: 300px;
-		
-}
+	}
+
+	.column{
+		width: 33.3%;
+	}
 }
 
 @media (min-width: 767px) and (max-width: 900px){
@@ -390,6 +409,18 @@ input[type = text]:focus {
 
 	#menuButtons{
 		margin-left: 42px;
+	}
+
+	.column{
+		width: 33.3%;
+	}
+
+	#impcon{
+		font-size: 25px;
+	}
+
+	#concepts{
+		font-size: 15px;
 	}
 }
 
@@ -415,13 +446,20 @@ input[type = text]:focus {
 	#menuButtons{
 		margin-left: 30px;
 	}
+
+	.column{
+		width: 100%;
+		text-align: center;
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 
 @media (max-width: 500px){
 	#mainTitle{
-		font-size: 20px;
+		font-size: 16px;
 		margin-left: 0px;
-		top: 9px;
+		top: 12px;
 	}
 
 	input[type ="text"]{
@@ -459,8 +497,8 @@ input[type = text]:focus {
 	}
 
 	#menuButtons{
-		margin-left: 16px;
-		font-size: 14px;
+		margin-left: 13px;
+		font-size: 13px;
 		left: 2px;
 		top: 9px;
 	}
@@ -484,4 +522,12 @@ input[type = text]:focus {
 		font-size: 15px;
 		top: 110px;
 	}
+
+	.column{
+		width: 100%;
+		text-align: center;
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
+
