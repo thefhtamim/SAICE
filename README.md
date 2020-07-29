@@ -1,2 +1,2 @@
 # Coursaice
-Coursaice offers online courses from SAICE teachers.
+Coursaice offers course material from SAICE teachers.
