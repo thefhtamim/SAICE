@@ -207,9 +207,14 @@ input[type = text]:focus {
 
 .column {
     float: left;
-    width: 16.6%;
 	padding-left: 60px;
 	padding-top: 20px;
+}
+
+.columncourse {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #impcon {
@@ -393,6 +398,11 @@ input[type = text]:focus {
 	.column{
 		width: 33.3%;
 	}
+
+	.columncourse{
+		width: 33.3%;
+		height: auto;
+	}
 }
 
 @media (min-width: 767px) and (max-width: 900px){
@@ -413,6 +423,11 @@ input[type = text]:focus {
 
 	.column{
 		width: 33.3%;
+	}
+
+	.columncourse{
+		width: 33.3%;
+		height: auto;
 	}
 
 	#impcon{
@@ -452,6 +467,10 @@ input[type = text]:focus {
 		text-align: center;
 		padding-left: 0;
 		padding-right: 0;
+	}
+
+	.columncourse{
+		width: 50%;
 	}
 }
 
@@ -528,6 +547,10 @@ input[type = text]:focus {
 		text-align: center;
 		padding-left: 0;
 		padding-right: 0;
+	}
+
+	.columncourse{
+		width: 100%;
 	}
 }
 
