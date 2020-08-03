@@ -149,14 +149,12 @@ input[type = text]:focus {
 
 
 .yogi {
-	
+	margin: 0;
 	position: relative;
-	margin-top: 100px;
-	margin-left: 10%;
 	height: 35vh;
 	width: 230px;
 	text-align: center;
-
+	margin-top: 75px;
 }
 
 
@@ -499,7 +497,6 @@ input[type = text]:focus {
 
 	.yogi {
 		width:160px;
-		margin-left: 6%;
 
 	}
 
