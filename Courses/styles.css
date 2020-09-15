@@ -46,6 +46,8 @@ body {
 	background-color: black; /*#1E1E1E;*/
 	border-radius: 0;
 	border: 0;
+	
+
 
 }
 
@@ -279,11 +281,13 @@ input[type = text]:focus {
 }
 
 #FirstPassage {
-	margin-top: 60px;
+	margin-top: 50px;
 	/*padding-left: 60px;
 	padding-right: 60px;*/
 	font-family: Lato;
 	line-height: 1.6;
+	text-align: justify;
+
 }
 
 #footer {
@@ -291,8 +295,51 @@ input[type = text]:focus {
 	width: 100%;
 	background-color: #3b3b3b;
 	margin-top: 100px;
+	
+
 }
 
+.diagrams {
+  display: block;
+  max-width:230px;
+  max-height:250px;
+  width: auto;
+  height: auto;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+.graphs {
+
+  display: block;
+  max-width:320px;
+  max-height:400px;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+}
+
+#graph_title {
+
+	
+	font-family: Lato;
+	line-height: 1.6;
+	text-align: center;
+
+}
+
+.videos {
+	margin-top: 30px;
+	
+}
 /* Next & previous buttons */
 .prev, .next {
   	cursor: pointer;
