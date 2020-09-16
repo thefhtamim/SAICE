@@ -311,11 +311,17 @@ input[type = text]:focus {
 
 }
 
+.graphsColumn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .graphs {
 
   display: block;
-  max-width:320px;
-  max-height:400px;
+  max-width:240px;
+  max-height:300px;
   width: auto;
   height: auto;
   margin-left: auto;
@@ -323,6 +329,12 @@ input[type = text]:focus {
   margin-top: 50px;
   margin-bottom: 30px;
 
+}
+
+.graphsContainer{
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
 #graph_title {
@@ -448,6 +460,10 @@ input[type = text]:focus {
 		width: 33.3%;
 		height: auto;
 	}
+
+	.graphsColumn{
+		width: 50%;
+	}
 }
 
 @media (min-width: 767px) and (max-width: 900px){
@@ -481,6 +497,10 @@ input[type = text]:focus {
 
 	#concepts{
 		font-size: 15px;
+	}
+
+	.graphsColumn{
+		width: 50%;
 	}
 }
 
@@ -516,6 +536,10 @@ input[type = text]:focus {
 
 	.columncourse{
 		width: 50%;
+	}
+
+	.graphsColumn{
+		width: 100%;
 	}
 }
 
@@ -594,6 +618,10 @@ input[type = text]:focus {
 	}
 
 	.columncourse{
+		width: 100%;
+	}
+
+	.graphsColumn{
 		width: 100%;
 	}
 }
