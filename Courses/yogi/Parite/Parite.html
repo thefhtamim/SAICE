@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Coursaice </title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="topics.css">
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="Logo.png">
+    <link href="index.html">
+    <link href="courses.html">
+    <link href="about.html">
+    <link href="default.html">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src = "../../script.js"></script>
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			 <div class="container, divAdj">
+				  <div class="navbar-header">
+					<h1 id = "mainTitle">Coursaice</h1>
+					<a href = "../../index.html" id = "menuButtons">Home</a>
+					<a href = "../../courses.html" id = "menuButtons">Courses</a>
+					<a href = "../../default.html" id = "menuButtons">About</a>
+
+					<div class="topnav, divCon">
+						<input type="text" placeholder="Search" onkeydown="search(this)"/>
+					</div> 
+				</div>
+			</div> 
+		</nav>
+	</header>
+	
+
+	<h1 id = "FirstTitle" style = "font-size: 40px"> Parité </h1>
+	<p id = "FirstPassage"> <b>Définition: </b> Soit \(f\) une fonction et soit \(D_{f}\) son ensemble de définition.<br>1. La fonction \(f\) est paire si et seulement si, pour tout \(x\) de \(D_{f}\), \(-x\) est élément de \(D_{f}\), et \(f(-x) = f(x)\). La courbe représentative de \(f\) dans un repère orthogonal admet alors l'axe des ordonnées comme l’axe de symétrie.<br>2. La fonction \(f\) est impaire si, et seulement si, pour tout \(x\) de \(D_{f}\), \(-x\) est élément de \(D_{f}\), et \(f(-x) = -f(x)\). La courbe représentative de \(f\) dans un repère cartésien admet alors l’origine comme centre de symétrie.</p>
+
+
+	<p id = "FirstPassage"> <b>Explication: </b> \(f(x)\) est paire si  \(f(x) = f(-x)\). Dans ce cas l’axe d'équation \(x = 0\) est l’axe de symétrie. \(f(x)\) est impaire si \(f(-x) = -f(x)\). Dans ce cas l’origine \(0(0;0)\) est le centre de symétrie.</p>
+
+	
+    <p id = "FirstPassage"> <b>Diagrames: </b>
+	<div class = "graphsContainer">
+	<div class="row">
+		<div class="graphsColumn">
+			<div>
+				<p id = "graph_title_wide">Soit \(f(x) = 2x^2 + 5\)<br>\(f(-x) = 2(-x)^2 + 5 = 2x^2 + 5.\) Donc, \(f(x)= f(-x)\), alors \(f\) est un fonction paire.  L’axe \(x = 0\), est  l’axe centre de symétrie.</p>
+				<img src = "2x2+5.jpg" class = "graphs">
+			</div>
+		</div>
+		<div class="graphsColumn">
+			<div>
+				<br>
+				
+				<p id = "graph_title_wide">Soit \(f(x) = 2x^3 + 5x\)<br>\(f(-x) = 2(-x)^3 + 5(-x) = -2x^3 -5x.\) Donc \(f(-x) = -f(x)\), alors \(f\) est une fonction impaire. L’origine est le centre de symétrie.</p>
+
+				<img src = "2x3+5.jpg" class = "graphs">
+			</div>
+		</div>
+		<div class="graphsColumn">
+			<div>
+				
+				<p id = "graph_title_wide">Soit \(f(x) = 2x^2 + 5x + 1\)<br>\(f(-x) = 2x^2 - 5x + 1\) et \(-f(x) = -2x^2 - 5x -1.\) Donc comme \(f(x) \ne f(-x)\) et \(f(-x) \ne -f(x)\), \(f\) n’est ni paire ni impaire.</p>
+				<img src = "2x2+5+1.jpg" class = "graphs">
+
+			</div>
+		</div>
+		
+	</div>
+    </div>
+    
+    <ol id = "FirstPassage" style = "margin-top: 20px">
+        <b> Exemples : </b><br><br>
+        <li> \(f(x) = 3x^2 - 5x - 2\)<br>La parité: Cherchons nous pour la parité<br>\(f(-x) = 3(-x)^2 - 5(-x)-2 = 3x^2 + 5x -2\)<br>\(f(x) = -3x^2 - 5x + 2\)<br>Donc comme \(f(x) \ne f(-x)\) et \(f(-x) \ne -f(x)\), \(f\) n’est ni paire ni impaire.
+        </li>
+        <br>
+		<li>\(f(x) = 10x^2 + 20\)<br>Parité: Cherchons nous pour la parité<br>\(f(-x) = 10x^2 + 20\)<br>\(f(x) = f(-x)\)<br>Donc, \(f\) est paire.     
+		</li>
+        <br>
+        <li>\(f(x) = -13x^2 - x + 12\)<br>Parité: Cherchons nous pour la parité<br>\(f(-x) = -13x^2 + x + 12\)<br>\(-f(x) = 13x^2 - x - 12\)<br>Donc  comme \(f(x) \ne f(-x)\) et \(f(-x) \ne - f(x)\), \(f\) n’est ni paire ni impaire.
+        </li>
+        <br>
+        <li>\(f(x) = \sqrt{x - 1}\)<br>Parité:<br>\(f(-x) = -x - 1\)<br>\(-f(x) = -x - 1\)<br>Donc, \(f\) n’est ni paire ni impaire.<br>Une meilleur façon de voir: \(D_{f} = [1 ; ∞ [\)<br>Pour tout \(x\) de \(D_{f} -x ∉ D_{f}\); donc ni paire ni impaire. En d’autre mots, le domaine n’est pas symétrique.
+        </li>
+        <br>
+        <li>\(f(x) = {8\over9x}\)<br>Parité:<br>\(f(-x) = {8\over(-9x)}\)<br>\(-f(x) = {-8\over9x}\)<br>Donc, \(f\) est impaire.
+		</li>
+		<br>
+		<li>\(f(x) = |x^2 - 3x + 2|\)<br>Parité:<br>\(f(-x) = |x^2 + 3x + 2|\)<br>\(-f(x) = -|x^2 - 3x + 2|\)<br>Donc comme \(f(x) \ne f(-x)\) et \(-f(x) \ne f(-x)\), \(f\) n’est ni paire ni impaire.
+		</li>
+		<br>
+		<li>\(f(x) = sin(x)\)<br>\(f(-x) = sin(-x) = -sin(x)\)<br>\(-f(x) = -sin(x)\)<br>Donc comme \(-f(x) = f(-x)\), \(f\) est impaire.
+		</li>
+		<br>
+		<li>\(f(x) = cos(x)\)<br>\(f(-x) = cos(-x) = cos(x)\)<br>Donc comme \(f(x) = f(-x)\), \(f\) est paire.
+		</li>
+		
+	</ol>
+	
+	<h1 id = "FirstTitle">Vidéos</h1>
+
+	<p id = "FirstPassage" style = "text-align: center">Regarder les vidéos suivants:</p>
+
+	<center><iframe width="420" height="315" src="https://www.youtube.com/embed/nZgWOlgy0Cg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+	<p id = "FirstPassage" style = "text-align: center; margin-top: 20px">Parité [de 0:00 jusqu’à la fin]</p><br>
+
+	<center><iframe width="420" height="315" src="https://www.youtube.com/embed/7VMawT9ewkY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+	
+	<p id = "FirstPassage" style = "text-align: center; margin-top: 20px">Parité [de 0:24 jusqu’à 2:16]</p>
+
+
+
+
+
+	<footer>
+		<div id = "footer"></div>
+	</footer>
+
+
+
+
+
+	
+
+
+</body>
+</html>
