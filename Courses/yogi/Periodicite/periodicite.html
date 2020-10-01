@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Coursaice </title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="topics.css">
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="Logo.png">
+    <link href="index.html">
+    <link href="courses.html">
+    <link href="about.html">
+    <link href="default.html">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src = "../../script.js"></script>
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			 <div class="container, divAdj">
+				  <div class="navbar-header">
+					<h1 id = "mainTitle">Coursaice</h1>
+					<a href = "../../index.html" id = "menuButtons">Home</a>
+					<a href = "../../courses.html" id = "menuButtons">Courses</a>
+					<a href = "../../default.html" id = "menuButtons">About</a>
+
+					<div class="topnav, divCon">
+						<input type="text" placeholder="Search" onkeydown="search(this)"/>
+					</div> 
+				</div>
+			</div> 
+		</nav>
+	</header>
+	
+
+	<h1 id = "FirstTitle" style = "font-size: 40px"> Périodicité </h1>
+	<p id = "FirstPassage"> <b>Définition: </b>Soit \(f\) une fonction et soit \(D\)<sub>\(f\)</sub> son ensemble de définition.
+        On dit que \(f\) est périodique si, et seulement si, il existe un réel non nul \(t\) tel que, pour tout \(x\) de \(D\)<sub>\(f\)</sub>, \(x+t\) et \(x-t\) sont éléments de \(D\)<sub>\(f\)</sub>; et \(f(x+t) = f(x)\). On dit alors que \(t\) est une période de  \(f\). 
+        <br> <br>
+        Si l’ensemble des périodes strictement positives de \(f\) admet un plus petit élément \(T\), on dit que \(T\) est la période de \(f\). Les autres périodes de \(f\) sont des multiples de \(T\) (pour toute période \(t\), il existe un entier relatif \(k\), tel que \(t = kT\). <br> <br>
+        Si \(f\) est de période \(T\), sa courbe représentative est invariante par toutes les translations de vecteurs \(kTi\) (vecteur i), où \(k\) est un entier relatif. </p>
+
+	<!-- <p id = "FirstPassage"> Voici quelques exemples des procédés permettant d'associer un nombre à un autre nombre: <br> </p> -->
+    <p id = "FirstPassage"> <b>Exemples : </b> <br>
+        Par exemple les fonctions trigonométriques sont périodique. <br>
+        \(f(x) = sin(x)\) 
+
+    <img src = "cosx.jpeg" class = "periodiciteGraphs">
+    <br>
+    <p class="periodiciteText">
+        Si \(sin(x)\) est periodique alors, <br>
+        \(sin(x+T) = sin(x) , ∀x\) <br>
+        \(⇒sin(x+T) − sin(x)=0\) <br>
+        \(sin(a) - sin(b) = 2cos(a + b2)sin(a-b2)\) <br>
+        \(⇒2cos(x+T+x2)sin(x+T-x2) = 0\) <br>
+        \(⇒2cos(2x+T2)sin(T2) = 0\) <br>
+        \(cos(2x+T2) ≠ 0,pour tout x \)<br>
+        \(∴sin(T2) = 0 \) <br>
+        \(⇒T2 =nπ , n ∊ Z \)<br>
+        \(⇒T =2nπ\) <br>
+        \(⇒T =2π,\) pour la valeur la moins positive de \(T\) <br>
+        Donc \(sin x\) est périodique de période \(2π\) <br>
+    </p>
+
+    <p id="FirstPassage"> <b>Diagrames : </b> <br>
+        \(f(x) = cos(x) =f(x+2)\)  a une période de \(2\)</p>
+    <img src = "sinx.jpeg" class = "periodiciteGraphs">
+    
+    <p id="FirstPassage">\(f(x) = tan(x) =f(x+π)\)  a une période de \(π\)</p>
+    <img src = "tanx.jpeg" class = "periodiciteGraphs">
+    <br>
+
+    
+    <ol id = "FirstPassage" style = "margin-top: 20px">
+        <b> Exemples : </b>
+        <li> \(f(x) =acos(bx +c)+d\) <br> 
+            la période est \(2π\over |b|\)
+        </li>
+        <br>
+		<li> \(f(x) =asin(bx +c)+d\) <br>
+            la période est \(2π\over |b|\)
+        </li>
+        <br>
+        <li> \(f(x) = 3sin(2x)\) <br>
+            la période est \(2π\over |b|\) \(=\) \(2π\over 2\) \(= π\)
+        </li>
+        <br>
+        <li> \(f(x) = 12cos(3x2-1)\) <br>
+            la période est \(2π\over |b|\) \(=\) \(2π\over 1.5\) \(=\) \(4π\over 3\)
+        </li>
+	</ol>
+	
+	<h1 id = "FirstTitle">Vidéos</h1>
+
+	<p id = "FirstPassage" style = "text-align: center">Periodicite [de 0:00 jusqu’à la fin]:</p>
+
+	
+	<center><iframe width="420" height="315" src="https://www.youtube.com/embed/rcOgTUw49Qk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+
+
+
+
+
+	
+
+	
+	
+
+
+
+
+
+
+
+
+
+	<footer>
+		<div id = "footer"></div>
+	</footer>
+
+
+
+
+
+	
+
+
+</body>
+</html>
