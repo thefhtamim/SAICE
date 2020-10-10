@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Coursaice </title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="topics.css">
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="Logo.png">
+    <link href="index.html">
+    <link href="courses.html">
+    <link href="about.html">
+    <link href="default.html">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src = "../../script.js"></script>
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			 <div class="container, divAdj">
+				  <div class="navbar-header">
+					<h1 id = "mainTitle">Coursaice</h1>
+					<a href = "../../index.html" id = "menuButtons">Home</a>
+					<a href = "../../courses.html" id = "menuButtons">Courses</a>
+					<a href = "../../default.html" id = "menuButtons">About</a>
+
+					<div class="topnav, divCon">
+						<input type="text" placeholder="Search" onkeydown="search(this)"/>
+					</div> 
+				</div>
+			</div> 
+		</nav>
+	</header>
+	
+
+	<h1 id = "FirstTitle" style = "font-size: 40px"> Extremum </h1>
+    <p id = "FirstPassage"> <b>Définition: </b> Un extremum est une valeur extrême \(y_{0}= f(x_{0})\) qui peut correspondre à un minimum ou à un maximum prise par une valeur \(x_{0}\) sure un intervalle donné.
+        Pour exprimer que la fonction \(f\) admet en \(x_{0}\)  un maximum ou un minimum, on dit que \(f\) admet en \(x_{0}\)  un extremum.<br>
+        On dit qu’une fonction \(f\) admet en un point \(x_{0}\) , de son ensemble de définition \(D\)<sub>\(f\)</sub> un extremum local s’il existe un intervalle ouvert \(I\) inclus dans \(D\)<sub>\(f\)</sub>, contenant \(x_{0}\) , et tel que \(f\) admet un extremum en \(x_{0}\) .<br>
+        <br>	
+
+    <p id = "FirstPassage"> <b>Explications : </b> <br>
+        Un extremum est appelé un Minimum quand la sens de variation juste avant l’extremum est décroissant et juste après il est croissant. <br>
+        Un maximum est quand la sens de variation juste avant l’extremum est croissante et juste après il est décroissant. <br>
+
+    <p id = "FirstPassage"> <b>Diagrames: </b> <br>
+         Une fonction peut avoir plusieurs Extremums. <br> \(f(x) = x^3+3x^2\)
+         <img src = "graph.jpeg" class = "graphs"> <br>
+         On admet que le point \((-2 ; 4)\) est le maximum et le point \((0 ; 0)\) est le <br>
+         minimum de la fonction \(f(x) = x^3+3x^2\) <br>
+    </p>
+    
+    <ol id = "FirstPassage" style = "margin-top: 20px">
+        <b> Exemples : </b>
+        <li> \(f(x) =3x^2-5x-2\) <br> 
+            On admet que l’abscisse ‘x’ de l’extremum d’une fonction du deuxième <br>
+            degré est \(-b\over 2a\) \(=\) \(5\over 6\) <br>
+            f est décroissante sur \(]-∞;\) \(5\over 6\)\(]\) et croissante sur \([\)\(5\over 6\)\(;∞ [\) <br>
+            Donc, \(f(x)\) admet un minimum en \(5\over 6\) egal a \(f(\)\(5\over 6\)\()\) \(=\) \(-49\over 12\) <br>
+        </li>
+        <br>
+		<li> \(f(x) = \sqrt{x-1}\) <br>
+            \(f\) est croissante sur \(D\)<sub>\(f\)</sub>, comme la fonction est monotone, \(f(x)\) n’admet pas d'extremum. <br>
+        </li>
+        <br>
+        <li> \(f(x) = |6x+31|\) <br>
+             Sur \(]-∞ ;\) \(-31\over 6\)\(]\) \(f\) est decroissante, sur \([\)\(-31\over 6\)\(; +∞[\)  \(f\) est croissante. <br>
+             Donc, \(f(x)\) admet un minimum en \(-31\over 6\) egal a \(f(\)\(-31\over 6\)\() = 0\)  <br>
+        </li>
+        <br>
+        <li> \(f(x) = -2x^2 + 3\) <br>
+            On admet que l’abscisse \(‘x’\) de l’extremum d’une fonction du deuxième degré est \(-b\over 2a\) \(= 0\) <br>
+            \(f\) est croissante sur \(]-∞; 0]\) et decroissante sur \([0;∞[\). Donc \(f(x)\) admet <br>
+            un maximum en \(0\) egal a \(f(0) = 3\) <br>
+        </li>
+        <br>
+	</ol>
+	
+	<h1 id = "FirstTitle">Vidéos</h1>
+
+	<p id = "FirstPassage" style = "text-align: center">Maximum et minimum [ de 0:59 jusqu’à 1:55]:</p>
+
+	
+	<center><iframe width="420" height="315" src="https://www.youtube.com/embed/jSGkxbJ1b3U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+	<p id = "FirstPassage" style = "text-align: center">Maximum et minimum [ de 0:11 jusqu’à 2:16]:</p>
+
+	
+	<center><iframe width="420" height="315" src="https://www.youtube.com/embed/g94SR3wZuZ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+
+
+
+
+	
+
+	
+	
+
+
+
+
+
+
+
+
+
+	<footer>
+		<div id = "footer"></div>
+	</footer>
+
+
+
+
+
+	
+
+
+</body>
+</html>
