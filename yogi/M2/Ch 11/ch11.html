@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Coursaice </title>
+    <link rel="stylesheet" href="../../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="topics.css">
+    <link rel="stylesheet" href="../../../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="Logo.png">
+    <link href="index.html">
+    <link href="courses.html">
+    <link href="about.html">
+    <link href="default.html">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src = "../../../script.js"></script>
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			 <div class="container, divAdj">
+				  <div class="navbar-header">
+					<h1 id = "mainTitle">Coursaice</h1>
+					<a href = "../../../index.html" id = "menuButtons">Home</a>
+					<a href = "../../../courses.html" id = "menuButtons">Courses</a>
+					<a href = "../../../default.html" id = "menuButtons">About</a>
+
+					<div class="topnav, divCon">
+						<input type="text" placeholder="Search" onkeydown="search(this)"/>
+					</div> 
+				</div>
+			</div> 
+		</nav>
+	</header>
+	
+
+    <h1 id = "FirstTitle" style = "font-size: 40px"> M2 Chapitre: 11 Fonction Trigonométriques  </h1>
+    <h2 id = "FirstTitle" style = "font-size: 30px"> Fonction Cosinus, Sinus et Tangente  </h2>
+	<p id = "FirstPassage"> <b>Définition 1 : </b> On appelle cosinus et sinus d’un réel \(t\), et l’on note \(cos(t)\) et \(sin(t)\), le cosinus et le sinus d’un angle orientés dont une mesure en radians est \(t\).</p>
+	<p id = "FirstPassage"> <b>Définition 2 : </b> Pour tout réel \(t\) dont  le cosinus n’est pas nul, le quotient \(sin (t)\over cos (t)\) est appelé tangente de \(t\),  et est noté \(tan (t)\). </p>
+
+    <img src = "triangle.gif" class = "diagrams">    
+
+    <p id = "FirstPassage"> Soit \(ABC\) est un triangle rectangle en \(B\). Le cosinus de l'angle â est le rapport des longueurs du côté adjacent à cet angle et de l'hypoténuse. Soit \(a = â\) <br>
+        \(cos(a) =\) \(côté\) \(adjacent\) \(de\) \(cet\) \(angle\)/\(hypoténuse\) \(=\) \(AB\over AC\) <br> <br>
+        
+        Le sinus de l'angle \(â\) est le rapport des longueurs du côté opposé à cet angle et de l'hypoténuse. Soit \(a = â\) <br>  
+        \(sin(a) =\) \(côté\) \(opposé\) \(de\) \(cet\) \(angle\)/\(hypoténuse\) \(=\) \(BC\over AC\) <br> <br>   
+
+        Le tangente de l’angle \(â\) est le rapport des longueurs du côté opposé à cet angle et du côté adjacent à cet angle. Soit \(a = â\). <br>
+        \(tan(a) =\) \(sin(a)\over cos(a)\) \(=\) \(BC\over AB\) <br> 
+    </p>
+
+    <p id="FirstPassage"> <b>Truc à Retenir :</b> <br>
+        \(“Sohcahtoa”\), où \(s\) représente sinus, \(c\) représente cosinus et \(t\) représente tangente. \(o\) représente oppose, \(h\) représente hypoténuse et \(a\) représente adjacent. <br>
+        Donc, \(soh ⇒ sin =\) \(o\over h\) \(coh ⇒ cos =\) \(a\over h\) \(toa ⇒ tan =\) \(o\over a\)
+    </p>
+    <br>
+    <img src = "triangle2.jpg" class = "diagrams">
+    
+    <p id="FirstPassage">
+        Soit \(ABC\) un demi triangle rectangle équilatéral, rectangle en \(A\). Soit \(BC = 1\).Comme \(ABC\) est un demi triangle équilatéral, rectangle en \(A\) et l’angle en \(B\) est \(60°\) et l’angle en \(C\) est \(30°\),  \(AB\) est demie de \(BC\), donc \(AB = 12\). D’apres le theoreme de pythagore, <br>
+        \(AB^2 +AC^2 = BC^2  ⇒ AC^2 = BC^2 - AB^2\) <br>
+        Donc, \(AC =\) \(\sqrt{BC^2 - AB^2}\) \(=\) \(\sqrt{1^2 - 1/4}\) <br>
+        \(AC =\) \(\sqrt{3\over 4} =\) \(\sqrt{3}\over 2\) <br>
+        \(cos(Ĉ) = cos(30°) =\) \(AC\over BC\) \(=\) \(\sqrt{3}\over 2\) <br>
+        \(cos(B) =cos(60°) =\) \(AB\over BC\) \(=\) \(1\over 2\) <br>
+        \(sin(Ĉ) = sin(30°) =\) \(AB\over BC\) \(=\) \(1\over 2\) <br>
+        \(sin(B) = sin(60°) =\) \(AC\over BC\) \(=\) \(\sqrt{3}\over 2\) <br>
+        \(tan(Ĉ) = tan(30°) =\) \(AB\over AC\) \(=\) \(1\over 2\) \(*\) \(2\over \sqrt{3}\) \(=\) \(1\over \sqrt{3}\) \(=\) \(\sqrt{3}\over 3\) <br> 
+        \(tan(B) =tan(60°) =\) \(AC\over AB\) \(=\) \(\sqrt{3}\over 2\) \(*\) \(2\over 1\) \(=\) \(\sqrt{3}\) <br>
+    </p>
+    <br>
+
+    <img src = "triangle3.jpg" class = "diagrams">
+
+    <p id="FirstPassage">
+        Soit \(ABC\) un triangle rectangle isocèle en \(C\). Soit  \(AB = 1\). D’apres le theoreme de Pythagore, <br>
+        \(AC^2 + CB^2 = AB^2\) <br>
+        Comme \(AC = BC,  AC^2 + AC^2 = 2AC^2 = AB^2\) <br>
+        \(⇒ AC = \sqrt{AB^2\over 2} =\) \(\sqrt{1\over 2} =\) \(1\over \sqrt{2}\) \(=\) \(\sqrt{2}\over 2\) <br>
+        \(⇒ BC =\) \(\sqrt{2}\over 2\) <br>
+        \(cos(A) = cos(45°) =\) \(AC\over AB\) \(=\) \(\sqrt{2}\over 2\) <br>
+        \(sin(A) = sin(45°) =\) \(BC\over AB\) \(=\) \(\sqrt{2}\over 2\) <br>
+        \(tan(A) = tan(45°) =\) \(BC\over AC\) \(= 1\) <br>
+    </p>
+    <br>
+
+    <img src = "triangle4.png" class = "diagrams">
+
+    <p id="FirstPassage">
+        Soit \(PQR\) un triangle rectangle en \(R\). <br> 
+        Soit \(P = θ ⇒ Q = 90 - θ\) <br>
+        \(sin(P) = sin(θ) =\) \(RQ\over PQ\) <br>
+        \(cos(Q) = cos(90° - θ) =\) \(RQ\over PQ\) <br>
+        \(⇒ sin(P) = cos(Q) ⇒ sin(θ) = cos(90° - θ)\) <br>
+        De même: \(cos(P) = cos(θ) =\) \(PR\over PQ\) <br>  
+        \(sin(Q) = sin(90° - θ) =\) \(PR\over PQ\) \(⇒ cos(θ) = sin(90° - θ)\) <br>
+    </p>
+
+	<footer>
+		<div id = "footer"></div>
+	</footer>
+
+</body>
+</html>
