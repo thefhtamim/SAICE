@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Coursaice </title>
+    <link rel="stylesheet" href="../../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="topics.css">
+    <link rel="stylesheet" href="../../../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="Logo.png">
+    <link href="index.html">
+    <link href="courses.html">
+    <link href="about.html">
+    <link href="default.html">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src = "../../../script.js"></script>
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			 <div class="container, divAdj">
+				  <div class="navbar-header">
+					<h1 id = "mainTitle">Coursaice</h1>
+					<a href = "../../../index.html" id = "menuButtons">Home</a>
+					<a href = "../../../courses.html" id = "menuButtons">Courses</a>
+					<a href = "../../../default.html" id = "menuButtons">About</a>
+
+					<div class="topnav, divCon">
+						<input type="text" placeholder="Search" onkeydown="search(this)"/>
+					</div> 
+				</div>
+			</div> 
+		</nav>
+    </header>
+    
+    <h1 id = "FirstTitle" style = "font-size: 40px"> M2 Chapitre: 14 Repères Orthonormaux </h1>
+    <h2 id = "FirstTitle" style = "font-size: 30px"> I - REPÈRE ORTHONORMAL ET PRODUIT SCALAIRE </h2>
+    
+    <p id="FirstPassage"> On dit un vecteur est unitaire lorsque le norme de ce vecteur est égal à \(1\). On dit deux vecteurs sont orthogonaux lorsque l’angle formé par les deux vecteurs est \(π\over 2\). Dans le figure ci-dessous,  les vecteurs u&#8407 et v&#8407 sont unitaires et orthogonaux. </p>
+    <img src = "pic1.png" class = "diagrams"> 
+
+    <p id = "FirstPassage"> <b>Définition 1 : </b> On dit qu’un repère (O, i&#8407 , j&#8407 ) est \(orthonormal\) lorsque les vecteurs u&#8407 et v&#8407 sont unitaires et orthogonaux : <br>
+        \(||\) u&#8407 \(||\) \(=\) \(||\) v&#8407 \(||\) et u&#8407 · v&#8407 \( = 0\)
+    </p>
+
+    <p id = "FirstPassage"> <b> Preuve : </b> u&#8407 · v&#8407 \(=\) \(||\) u&#8407 \(||\) \(*\) \(||\) v&#8407 \(||\) \(*\) \(cos(θ)\) <br>
+        Comme, repère (O, i&#8407 , j&#8407 ) est orthonormal, \( θ = \) \(π\over 2\) \(⇒ cos(θ) = 0\) <br>
+        \(⇒\) u&#8407 · v&#8407 \(=\) \(||\) u&#8407 \(||\) \(*\) \(||\) v&#8407 \(||\) \(*\) \(cos(θ)\) \(= 1 * 1 * 0 = 0 \) \(⇒\) u&#8407 · v&#8407 \(= 0\)
+    </p>    
+
+	<footer>
+		<div id = "footer"></div>
+	</footer>
+
+</body>
+</html>
