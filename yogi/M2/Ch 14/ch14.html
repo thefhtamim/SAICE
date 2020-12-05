@@ -140,6 +140,66 @@
 
     <h2 id = "FirstTitle" style = "font-size: 30px"> III - DROITE DÉFINIE PAR UN POINT ET UN VECTEUR NORMAL </h2>
 
+    <img src = "pic3.jpeg" class = "diagrams">
+
+    <p id = "FirstPassage"><b>Vecteur Normal </b> <br>
+        On appelle vecteur normal d’une droite \(ⅅ\) du plan, tout vecteur non nul dont la direction est orthogonale à celle de \(ⅅ\). <br>
+        Une droite possède une infinité de vecteurs normaux. <br>
+        Soit une droite \(ⅅ\), un point \(M_0\)de \(ⅅ\) et un vecteur normal \(\vec{u}\) de \(ⅅ\). <br>
+        Pour tout point \(M\) de la droite \(ⅅ\), les vecteurs \(\overrightarrow{M_0M}\) et \(\vec{u}\) sont orthogonaux; donc : <br>
+        \(\overrightarrow{M_0M} · \vec{u} = 0\) <br>
+        Réciproquement, pour tout point M du plan tel que \(\overrightarrow{M_0M} · \vec{u} = 0\), les vecteurs \(\overrightarrow{M_0M}\) et \(\vec{u}\) sont orthogonaux et \(M∈ⅅ\).
+    </p>
+
+    <p id = "FirstPassage"> <b> Théorème 3 </b> <br>
+        Étant donnés un point \(M_0\) et un vecteur normal  d’une droite \(ⅅ\), \(ⅅ\) est l’ensemble des points \(M\) du plan tels que \(\overrightarrow{M_0M} · \vec{u} = 0\). <br>
+        Une droite \(ⅅ\) est donc déterminé par un point et un vecteur normal.
+    </p>
+
+    <img src = "pic4.jpeg" class = "diagrams">
+
+    <p id = "FirstPassage"> <b> Équation d'une droite définie par un point et un vecteur normal </b> <br>
+        Le plan \(𝓟\) est rapporté à un repère orthonormal \((O,\vec{i},\vec{j})\). <br> 
+        Soit \(ⅅ\) la droite passant par \(M_0(-1; 2)\) et de vecteur normal \(\vec{u}(2; -3)\) . <br>
+        Pour qu'un point \(M(x; y)\) du plan appartienne à \(ⅅ\), il faut et il suffit que \(\overrightarrow{M_0M} · \vec{u} = 0\); cette condition peut s'exprimer, à partir des coordonnées \((2; -3)\) de \(\vec{u}\)  et \((x + 1; y-2)\) de \(\overrightarrow{M_0M}\)  sous la forme : <br>
+        \(2(x+1)-3(y-2) =0\). <br>
+        Soit \(2x - 3y +8 = 0\). Cette relation, vérifiée par les coordonnées \((x; y)\) d'un point \(M\) du plan si, et seulement si, ce point appartient à \(ⅅ\), est une équation cartésienne de la droite \(ⅅ\).
+   </p>
+
+   <p id = "FirstPassage"> <b>Théorème 4</b> <br>
+        Soit une droite ⅅ passant par \(M_0(x_0; y_0)\) et de vecteur normal \(\vec{u}(a; b)\). La condition \(\overrightarrow{M_0M} · \vec{u} = 0\) s'exprime sous la forme : <br>
+        \(a(x-x_0)+b(y -y_0)=0\) <br>
+        A partir de l'équation cartésienne \(ax +by+c=0\) d'une droite ⅅ  dans un repère orthonormal, on peut obtenir les coordonnées d'un vecteur normal de ⅅ. <br>
+        Le vecteur \(\vec{v}(-b; a)\) est un vecteur directeur de ⅅ. Considérons le vecteur \(\vec{u}(a; b)\) :  il n'est pas nul, car un au moins des deux réels \(a, b\) n'est pas nul, et est orthogonal à \(\vec{v}\), car \(\vec{u} · \vec{v} = a(-b)+ba = 0\). Le vecteur \(\vec{u}\) est donc un vecteur normal de ⅅ. <br>
+   </p>
+
+   <p id = "FirstPassage"> <b>Théorème 5</b> <br>
+        Étant donné une droite ⅅ d'équation cartésienne \(ax + by + c = 0\) dans un repère orthonormal : <br>
+        1. un vecteur directeur de ⅅ est \(\vec{v}(-b; a)\);
+        2. un vecteur normal de ⅅ est \(\vec{u}(a; b)\).
+   </p>
+
+   <p id = "FirstPassage"><b>Condition d'orthogonalité de deux droites</b><br>
+        Soit ⅅ et ⅅ’ deux droites, d'équations respectives dans un repère orthonormal : <br>
+        \(ax + by + c = 0\) et  \(a'x + b'y + c' = 0\) <br>
+        Les vecteurs \(\vec{v}(-b; a)\) et \(\vec{v'}(-b; a)\) sont des vecteurs directeurs respectifs de ⅅ et ⅅ’/ <br>
+        Pour que les droites ⅅ et ⅅ’ soient perpendiculaires, il faut et il suffit que les vecteurs \(\vec{v}\) et \(\vec{v'}\) soient orthogonaux, c’est-a-dire que : <br>
+        \(\vec{v} · \vec{v'}=(-b)(-b' )+aa' = aa' +bb' = 0\) <br>
+    </p>
+
+    <p id = "FirstPassage"><b>Théorème 6</b><br>
+        Pour que deux droites, d'équations \(ax + by +c = 0\) et \(a'x + b'y + c' = 0\) <br>
+        dans un repère orthonormal soient perpendiculaires, il faut et il suffit que \(aa' + bb' = 0\) <br>
+        Pour deux droites d'équation \(y = mx + h\) et \(y = m'x + h'\), la condition d'orthogonalité s'écrit: \(mm' + 1 = 0\) <br>
+    </p>
+
+    <p id = "FirstPassage"><b>Exemple : </b><br>
+        Les droites d'équations \(y = 3x - 2\) et \(y = \)\(-1\over3\)\(x +5\) sont perpendiculaires, car \(3 × \)\(-1\over 3\) \(+1=0\)
+    </p>
+
+    <h2 id = "FirstTitle" style = "font-size: 30px"> IV - THEME: DISTANCE D’UN POINT À UNE DROITE </h2>
+
+
 	<footer>
 		<div id = "footer"></div>
 	</footer>
